@@ -1,0 +1,157 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #E8EBE4;
+    color: #1B1F21;
+}
+
+hr {
+    width: 400px;
+    border: 1px solid #BEC1BB;
+}
+
+/* Lateral */
+
+.lateral {
+    width: 400px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-right: 1px solid #BEC1BB;
+    padding-top: 20px;
+}
+
+.lateral h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lateral p {
+    font-size: 14px;
+}
+
+/* Usuario: María */
+
+.maria {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.maria2 {
+    display: flex;
+}
+
+.maria2 div {
+    padding: 0 10px;
+    margin: auto 0;
+}
+
+.maria img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 2px solid #BEC1BB;
+}
+
+.maria h3 {
+    font-size: 10px;
+    margin-top: -7px;
+    color: #BEC1BB;
+}
+
+.iconos {
+    margin: auto 0;
+}
+
+.iconos a {
+    padding: 0 10px;
+    font-size: 25px;
+    color: #828485;
+    text-decoration: none;
+}
+
+/* Botón "Nuevo Chat" */
+
+.boton {
+    padding: 30px 100px;
+}
+
+.boton a {
+    background-color: #A491D2;
+    color: #FFF;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+/* Cambio de color al poner el puntero encima del botón */
+
+.boton a:hover {
+    background-color: #CDC3E6;
+    color: #FFF;
+}
+
+/* Cambio de color al hacer click en botón */
+
+.boton a:focus {
+    background-color: #BEC1BB;
+    color: #FFF;
+}
+
+/* Contactos */
+
+.perfiles {
+    display: flex;
+    margin-left: 45px;
+    padding-bottom: 0;
+    margin-bottom: -4px;
+}
+
+.perfiles .amigos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.perfiles .texto {
+    padding: 0 15px;
+}
+
+.perfiles h2 {
+    margin: 5px auto;
+}
+
+.perfiles img {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    border: 2px solid #BEC1BB;
+}
+
+/* Networking */
+
+.networking {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.networking img {
+    width: 300px;
+    border-radius: 5%;
+}
+
+.networking h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.networking p {
+    font-size: 16px;
+}
